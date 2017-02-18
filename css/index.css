@@ -1,0 +1,88 @@
+/*reset*/
+body,section,ul,li,a,img,h2{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+body{
+	background-color: #ccc;
+}
+.container{
+	position: relative;
+	width: 1100px;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-left: 80px;
+	padding-top: 20px;
+}
+
+.pic-box .pic{
+	position: relative;
+	float: left;
+	border: 20px solid #fff;
+	width: 260px;
+	height: 450px;
+	margin-left: -40px;
+	overflow: hidden;
+}
+.pic-box .pic img{
+	position: absolute;
+	width: 300px;
+	height: 450px;	
+	transform-origin: 125px 500px;
+}
+/*按钮组*/
+.btn-box a{
+	position: absolute;
+	z-index: 9;
+}
+.btn-box a:hover{
+	opacity: .9;
+}
+.btn-box .pre{
+	top:40%;
+	left: -6px;
+	color: #fff;
+	font-size: 50px;
+	opacity: .5;
+	
+}
+.btn-box .next{
+	top:40%;
+	right: 0px;
+	color: #fff;
+	font-size: 50px;
+	opacity: .5;
+}
+.btn-box .play{
+	bottom: 50px;
+	left: 50%;
+	margin-left: -30px;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #fff;
+	opacity: .5;
+	color: #aaa;
+	font-size: 18px;
+	border:1px solid #999;
+}
+
+p{
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+	bottom: 5px;
+	opacity: .6;
+	padding: 2px 5px;
+	color: #fff;
+}
